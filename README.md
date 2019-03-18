@@ -1,5 +1,9 @@
 # Handelsregister-API.de API version v1
 
+A PHP SDK for the Handelsregister-API.de API version v1
+
+Handelsregister-API.de PHP SDK used to integrate Handelsregister-API.de REST API into your PHP application.
+
 https://api.handelsregister-api.de/v1
 
 
@@ -7,13 +11,17 @@ https://api.handelsregister-api.de/v1
 Handelsregister-API.de allows you to download commercial register information for German Companies with a REST-API. This API is not an official interface of the German Commercial Register, but a service of the private company fino run GmbH. All Access to the APIs are restricted by an API Key.
 
 
-### Installation
+## Installation
 
-Clone the repository
+You can use the SDK using [composer](https://getcomposer.org/). Run the following command in your project directory to update your `composer.json` file and download the SDK.
 
-```sh
-$ git clone https://github.com/handelsregister-api/handelsregister-api-php.git
-```
+    $ composer require handelsregister-api/handelsregister-api-php
+
+Alternatively, you can download this source and run
+
+	$ composer install
+	
+This generates the autoload files, which you can include using the following line in your PHP source code to start using the SDK
 
 ### Usage
 
