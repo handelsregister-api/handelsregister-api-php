@@ -10,6 +10,8 @@ https://api.handelsregister-api.de/v1
 ### Overview
 Handelsregister-API.de allows you to download commercial register information for German Companies with a REST-API. This API is not an official interface of the German Commercial Register, but a service of the private company fino run GmbH. All Access to the APIs are restricted by an API Key.
 
+## Reporting issues
+Report any feedback or problems with this version by [opening an issue on Github](http://github.com/handelsregister-api/handelsregister-api-php/issues).
 
 ## Installation
 
