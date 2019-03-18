@@ -1,7 +1,7 @@
 <?php
 require_once '../../vendor/autoload.php';
 
-// This is the default Handelsregister API Test-Key. Please replace it with your own API key that you received from the customer center.
+// Put your own API key here. Request your API Key on https://www.handelsregister-api.de by submitting the contact form.
 $api_key = 'XXXX-XXXX-XXXX-XXXX-XXXX-XXXX-XXXX-XXXX';
 
 try {
