@@ -1,0 +1,16 @@
+{
+    "name": "handelsregister-api/handelsregister-api-php",
+    "description": "Handelsregister-API.de allows you to download commercial register information for German Companies with a REST-API. This API is not an official interface of the German Commercial Register, but a service of the private company fino run GmbH. All Access to the APIs are restricted by an API Key.",
+    "type": "library",
+    "require": {
+        "php": "^7.2"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "handelsregister\\": "src/"
+        }
+    }
+}
